@@ -1,0 +1,22 @@
+<Script>
+  var barang=prompt("masukan barang","");
+  var jenis=prompt("masukan jenis","");
+  var jumlah=prompt("masukan jumlah","");
+  var harga=prompt("masukan harga","");
+  var alamat=prompt("masukan alamat","");
+  var expedisi=prompt("masukan expedisi","");
+  var metode_bayar=prompt("masukan metode bayar","");
+  var voucher=prompt("masukan voucher","");
+  var ongkir=prompt("ongkir barang","");
+  Total_bayar=(jumlah*harga)+(ongkir-voucher);
+  document.write("Barang: "+barang+" <br>");
+  document.write("Jenis: "+jenis+" <br>");
+  document.write("Jumlah: "+jumlah+" <br>");
+  document.write("Harga: "+harga+" <br>");
+  document.write("Alamat: "+alamat+" <br>");
+  document.write("Expedisi: "+expedisi+" <br>");
+  document.write("Metode pembayaran: "+metode_bayar+" <br>");
+  document.write("Voucher diskon: "+voucher+" <br>");
+  document.write("Ongkir: "+ongkir+" <br>");
+  document.write("Total bayar: "+Total_bayar+" ");
+</Script>
